@@ -25,7 +25,10 @@ public class HelloController {
             System.out.println(Arrays.asList(array));
             for (int i = 0; i < array.length; i++) {
                 String[] worker = array[i].split(",");
-
+                int number = Integer.parseInt(worker[0]);
+                if (randomNumber == number) {
+                    model.addAttribute("worker", worker[1]);
+                }
             }
         }
         return "workers";
