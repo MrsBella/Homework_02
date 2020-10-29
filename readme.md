@@ -38,3 +38,14 @@
        * Otworzy plik `Workers.txt` i znajdzie w nim osobę odpowiadającą wylosowanej liczbie.
        * Przekaże wylosowaną wartość do widoku, np `Jan Kowalski`.
    6. Wyświetl zawartość w widoku `workers.jsp`.
+
+## Zadanie 4
+
+   1. Zmodyfikuj zadanie z zajęć wykorzystujące klasy `CartController`, `Cart`, `CartItem`, `Product`, tak by wszystkie 
+   informacje były wyświetlane w widokach `jsp`.
+   
+   2. Utwórz akcję wyświetlającą formularz dodawania produktu - formularz ma być utworzony w `jsp`.
+   3. Dodaj funkcjonalność zmniejszania oraz zwiększania ilości produktów w koszyku o 1.
+   4. Dodaj funkcjonalność usuwania produktu z koszyka.
+   5. W widoku jsp wyświetlającym zawartość koszyka, dodaj linki pozwalające zwiększyć oraz zmniejszyć ilość danego 
+   produktu oraz link do usunięcia pozycji z koszyka.
